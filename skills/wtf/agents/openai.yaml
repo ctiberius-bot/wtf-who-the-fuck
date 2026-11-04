@@ -1,0 +1,6 @@
+interface:
+  display_name: "WTF - Who the Fuck"
+  short_description: "Copyable person briefs, profiles and introduction paths"
+  default_prompt: "Use $wtf to brief me on a person at a company and check any LinkedIn connections export available in this workspace."
+policy:
+  allow_implicit_invocation: true

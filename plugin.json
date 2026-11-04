@@ -1,0 +1,27 @@
+{
+  "name": "wtf",
+  "version": "0.1.0",
+  "description": "Sourced person briefs, optional full profiles with photos, and introduction clues from an available workspace connections export.",
+  "author": {
+    "name": "Chris Lockhart"
+  },
+  "repository": "https://github.com/ctiberius-bot/wtf-who-the-fuck",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "WTF - Who the Fuck",
+        "shortDescription": "Professional person briefs",
+        "longDescription": "Sourced person briefs, optional full profiles with photos, and introduction clues from an available workspace connections export. Uses authorized tools already available in the host; no data service bundled. Missing connections exports are skipped. Public preview; live end-to-end behavior unvalidated.",
+        "developerName": "Chris Lockhart",
+        "category": "Productivity",
+        "capabilities": [
+          "Person research",
+          "Copyable briefs",
+          "Template-based profiles",
+          "Connection export analysis"
+        ]
+      }
+    }
+  }
+}
