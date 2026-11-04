@@ -1,11 +1,18 @@
 {
   "name": "wtf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Copyable professional person briefs; optional full profiles in your named template and save folder, with a sourced photo. Uses a LinkedIn connections export already available in the workspace to check direct connections and possible introductions; otherwise explicitly skips that check.",
   "author": {
     "name": "JustSignal LLC"
   },
   "repository": "https://github.com/ctiberius-bot/wtf-who-the-fuck",
   "license": "MIT",
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "person-research",
+    "professional-profiles",
+    "introductions",
+    "linkedin-connections"
+  ],
+  "displayName": "WTF - Who the Fuck"
 }
