@@ -52,6 +52,24 @@ Use this shape, adapting empty sections honestly:
 
 Outside the copyable artifact, offer: **Build the full profile using your named template and destination folder.** If these were not supplied, ask for both together only when the user selects full mode. Do not withhold the short brief to collect them. Do not automatically create a file or full report from a short-brief request.
 
+## Template and output parameters
+
+Full-profile inputs are **person/company**, **template name or link**, and **destination folder name or link**. **Output format/file name** is optional when the template or destination convention already determines it. A portrait is included when a usable, identity-confirmed professional image is available. The short on-screen brief never requires a template or destination.
+
+| Template supplied | Handling |
+|---|---|
+| Markdown (`.md`) | Use headings and fields as the structure; include a durable relative/image link if the host can save assets together. Markdown alone does not embed image bytes. |
+| HTML (`.html`) | Preserve the layout and styles; embed or package the portrait durably. Suitable for a designed profile and PDF export when supported. |
+| Word (`.docx`) / native Google Doc | Preserve editable document formatting and designated image placeholders using an available document tool. |
+| PowerPoint (`.pptx`) / native Google Slides | Populate a profile slide or deck using an available presentation tool; preserve master, layout and image placeholders. |
+| PDF (`.pdf`) | Treat as a visual/field reference. Do not promise direct editing or exact layout reproduction. Identify an available editable authoring route; explain any conversion or material fidelity limitation before proceeding. |
+| Legacy Word/PowerPoint (`.doc`, `.ppt`) | Require a supported conversion route; obtain permission before changing the template's format. Do not rename an extension as conversion. |
+
+These are candidate formats, not a guarantee that every host can render or edit them. Inspect actual document/presentation/export capabilities and the template first. If the requested input or output is unsupported, finish the short brief, state the exact gap, and offer feasible formats. Do not silently switch formats.
+
+Preserve the supplied editable format by default. Output may be DOCX, PPTX, HTML, Markdown, a native document/presentation, or PDF **when a working renderer/exporter is available**. PDF is useful as a final viewing/sharing export; it is not the default editable source. If the user names a different output format, verify conversion support. For Markdown, report whether the photo is an image link plus saved asset, rather than claiming embedded bytes. Do not put an expiring hotlink into a supposedly self-contained file.
+
+
 ## Full profile: named template, named folder, photo
 
 1. Resolve the exact template and destination folder from the user's name, ID or link in the authorized workspace. Prefer IDs after resolution. Read the complete template before drafting. If multiple plausible matches exist, ask the user to identify the intended one; do not guess. If a required template or folder is missing, keep the short brief available and request just what is missing. Creating a new destination folder requires the user's request or clear authorization.

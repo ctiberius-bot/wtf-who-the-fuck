@@ -1,7 +1,7 @@
 {
   "name": "wtf",
-  "version": "0.1.0",
-  "description": "Sourced person briefs, optional full profiles with photos, and introduction clues from an available workspace connections export.",
+  "version": "0.1.1",
+  "description": "Copyable professional person briefs; optional full profiles in your named template and save folder, with a sourced photo. Uses a LinkedIn connections export already available in the workspace to check direct connections and possible introductions; otherwise explicitly skips that check.",
   "author": {
     "name": "JustSignal LLC"
   },
@@ -12,7 +12,7 @@
       "interface": {
         "displayName": "WTF - Who the Fuck",
         "shortDescription": "Professional person briefs",
-        "longDescription": "Sourced person briefs, optional full profiles with photos, and introduction clues from an available workspace connections export. Uses authorized tools already available in the host; no data service bundled. Missing connections exports are skipped. Public preview; live end-to-end behavior unvalidated.",
+        "longDescription": "Copyable professional person briefs; optional full profiles in your named template and save folder, with a sourced photo. Uses a LinkedIn connections export already available in the workspace to check direct connections and possible introductions; otherwise explicitly skips that check. Candidate templates: Markdown, HTML, DOCX, PPTX, Google Docs and Slides, subject to available editing tools. PDFs are layout references; PDF output requires an exporter. No data service or paid subscription is bundled. No messages are sent. Live end-to-end behavior remains unvalidated.",
         "developerName": "JustSignal LLC",
         "category": "Productivity",
         "capabilities": [
