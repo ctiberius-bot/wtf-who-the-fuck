@@ -36,6 +36,25 @@ When an export is available:
 4. Distinguish **Verified introduction path** (both user → intermediary and intermediary → target supported), **Possible introducer** (the user's connection plus relevant overlap, second edge unknown), and **Shared history only** (professional overlap, relationship unknown). A connections export usually establishes only the user's first-degree edges. Never call colleagues confirmed mutual connections or claim closeness, willingness, or an introduction is assured.
 5. Cite the export and relevant rows/profile links, preserving privacy and context boundaries. Do not search private messages, email or calendars unless separately authorized. No outreach or LinkedIn actions are included.
 
+## Optional live LinkedIn introduction-path check
+
+Use an applicable workspace connections export first. Check available evidence for direct, second-degree and third-degree paths, without treating colleagues or shared affiliations as proof of a connection.
+
+- **Direct:** user → target.
+- **Second degree:** user → intermediary → target.
+- **Third degree:** user → intermediary A → intermediary B → target.
+
+A normal first-degree connections export cannot establish the later edges. When paths remain unknown, offer **Check live LinkedIn for introduction paths** as an optional next step. This is the exception to the no-login-request rule for the default export check: absence of an export still does not block the brief, but the user may explicitly choose live mode. Do not open or acquire an authenticated session merely because this skill was invoked.
+
+Only after the user selects live mode, discover actual host capabilities. Use a suitable authorized native integration first. A people-search connector alone does not establish connection-graph access. Where no suitable integration can perform the check, explain the gap and use permitted signed-in browser access. Use only the user's authorized LinkedIn account/session. If login is needed, ask the user to sign in themselves through the host's supported handoff; never request credentials in chat, extract cookies or create a cloud copy of the session without explicit authorization.
+
+Inspect the resolved target's visible connection degree and mutual-connection information. Follow only accessible, relevant links needed for a small set of possible introductions. Respect visibility restrictions; do not bypass them or bulk harvest the network.
+
+Report **degree shown** separately from **route verified**. A 2nd/3rd-degree badge is not proof of the full chain. Mark a route verified only when every edge is supported, with source URLs, observation dates and the source's limitations. Prefer the shortest verified route; give up to three useful paths with the first person the user could approach. If only the degree is visible, say **Second/third degree shown; complete introduction route unavailable**. If access fails or no path is visible, report that exact limitation; do not infer no relationship exists.
+
+Keep the initial short brief concise and copyable. Add degree, verified routes, candidate introducers or unknown status to its relationship section; include the full evidence chain and limitations in the named-template full profile. An optional live result can revise the short brief using the same writing-block ID. Suggest whom the user could ask, but do not message, connect, send an intro request or claim willingness to introduce.
+
+
 ## Short brief: copyable on screen
 
 Aim for 150–250 words, less when evidence is sparse. Render one finished copyable artifact: in Codex use a `writing` block with variant `standard` and a unique five-digit ID; elsewhere use the host's native copyable artifact or a single clean Markdown block. Keep research commentary outside it. Include compact source links inside the brief so the copied version retains provenance.

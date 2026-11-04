@@ -1,7 +1,7 @@
 {
   "name": "wtf",
-  "version": "0.1.2",
-  "description": "Copyable professional person briefs; optional full profiles in your named template and save folder, with a sourced photo. Uses a LinkedIn connections export already available in the workspace to check direct connections and possible introductions; otherwise explicitly skips that check.",
+  "version": "0.1.3",
+  "description": "Copyable professional person briefs and optional full profiles using your named template and save folder, with a sourced photo. Uses an available workspace LinkedIn export; optionally checks live second/third-degree introduction paths with your authorized session. Missing or unverified paths are clearly labeled.",
   "author": {
     "name": "JustSignal LLC"
   },
@@ -14,5 +14,6 @@
     "introductions",
     "linkedin-connections"
   ],
-  "displayName": "WTF - Who the Fuck"
+  "displayName": "WTF - Who the Fuck",
+  "privacyPolicyUrl": "https://github.com/ctiberius-bot/wtf-who-the-fuck/blob/main/PRIVACY.md"
 }

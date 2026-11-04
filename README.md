@@ -40,3 +40,13 @@ MIT License. Copyright (c) 2026 JustSignal LLC. See LICENSE for the complete ter
 | DOC / PPT | Supported conversion required; no silent format change |
 
 Preserve the editable format by default. PDF can be a final export when a renderer is available. The skill checks actual host capabilities before promising a format.
+
+## Optional live LinkedIn mode
+
+After export-based checks, you may choose **Check live LinkedIn for introduction paths**. The skill then uses an authorized integration or permitted authenticated browser session, asking you to sign in yourself if needed. This is optional; no session is requested automatically for the initial brief. It checks visible second/third-degree relationships and introduction chains. A degree badge is reported separately from a verified route; every link needs evidence. Restricted or unavailable paths remain unknown. No messages, connection requests or introduction requests are sent.
+
+## Data flows
+
+The skill may send the target name, company or professional profile URL to user-authorized research/search/enrichment providers. It may read a workspace connections export and, only when selected, visible relationship information through an authenticated LinkedIn session. A requested full profile is saved to the user's named destination. No publisher-operated backend receives or retains this data. Host, storage, research-provider and LinkedIn policies govern their own processing and retention.
+
+[Privacy notice](PRIVACY.md)
